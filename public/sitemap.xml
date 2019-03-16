@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://rifkifauzi.id/coding/</loc>
+    <lastmod>2019-02-14T23:01:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/english/</loc>
+    <lastmod>2019-02-14T23:01:03+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/gallery/</loc>
+    <lastmod>2019-02-14T23:00:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/opini/</loc>
+    <lastmod>2019-02-14T22:58:36+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/blog/indonesia-election-islamist-already-won-really/</loc>
+    <lastmod>2019-02-14T22:02:39+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/blog/welcome/</loc>
+    <lastmod>2019-01-14T00:23:03+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/blog/</loc>
+    <lastmod>2019-02-14T22:02:39+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/</loc>
+    <lastmod>2019-02-14T23:01:07+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
