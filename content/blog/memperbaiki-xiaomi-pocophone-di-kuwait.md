@@ -2,6 +2,7 @@
 title: "Memperbaiki xiaomi Pocophone F1 di kuwait"
 date: 2019-04-04T06:30:10+03:00
 draft: false
+tags: ["personal"]
 ---
 
 Pengalaman memperbaiki smartphone di kuwait dan indonesia ternyata berbeda sekali. di indonesia memperbaiki smartphone lebih mudah. selain karena sparepart yang banyak tersedia online. ketika kita beli dari marketplace luar negeri semacam alixepress pun tidak ada biaya bea cukai, peraturan di indonesia barang bebas bea masuk adalah 500 USD. jadi bagaimana dengan di kuwait ? saya akan jelaskan di bawah :)

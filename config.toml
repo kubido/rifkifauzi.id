@@ -19,22 +19,22 @@ identifier             = "latest"
 url                    = "/"
 
 [[menu.main]]
-name                   = "Opinion"
+name                   = "Personal"
 weight                 = -100
-identifier             = "opinion"
-url                    = "/opinion/"
+identifier             = "Personal"
+url                    = "/tags/personal/"
 
 [[menu.main]]
 name                   = "Coding"
 weight                 = -90
 identifier             = "coding"
-url                    = "/coding/"
+url                    = "/tags/coding/"
 
 [[menu.main]]
 name                   = "English"
 weight                 = -80
 identifier             = "english"
-url                    = "/english/"
+url                    = "/tags/english/"
 
 [[menu.main]]
 name                   = "Gallery"
