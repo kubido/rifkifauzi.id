@@ -9,12 +9,20 @@ theme = "cocoa"
   github = "https://github.com/kubido"
   instagram = "https://instagram.com/kubid"
   author = "Rifki Fauzi"
+  cachebuster = true
+  forcehttps  = true
 
 [[menu.main]]
-name                   = "Opini"
+name                   = "Latest"
+weight                 = -110
+identifier             = "latest"
+url                    = "/"
+
+[[menu.main]]
+name                   = "Opinion"
 weight                 = -100
-identifier             = "opini"
-url                    = "/opini/"
+identifier             = "opinion"
+url                    = "/opinion/"
 
 [[menu.main]]
 name                   = "Coding"

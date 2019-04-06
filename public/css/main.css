@@ -151,7 +151,7 @@ section.main {
     -webkit-order: 2;
     -moz-order: 2;
     -ms-order: 2;
-    order: 2;
+    order: 3;
   }
   section.main {
     -webkit-order: 1;
@@ -495,11 +495,14 @@ section.main .container .content .post-item {
   list-style: disc inside;
 }
 section.main .container .content .post-item .meta {
+
   color: #666;
-  display: none;
+  display: flex;
+  align-self: baseline;
   min-width: 100px;
   text-align: right;
   margin-right: 16px;
+  margin-bottom: 1em
 }
 section.main .container .content .no-bullet {
   color: transparent;
@@ -519,7 +522,6 @@ section.main .container .content .no-bullet .date {
 section {
   padding: 0 16px;
 }
-
 section.header {
   padding-top: 32px;
   padding-bottom: 16px;
@@ -557,7 +559,8 @@ section.main {
   }
   section.main.post {
     padding-top: 60px;
-    padding-bottom: 60px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
   }
 }
 a {
@@ -740,4 +743,8 @@ section.main .content .markdown th {
 section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
+}
+
+section.comments{
+  order: 2
 }
