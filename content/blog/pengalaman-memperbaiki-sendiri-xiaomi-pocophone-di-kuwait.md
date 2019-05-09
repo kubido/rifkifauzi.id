@@ -1,12 +1,11 @@
 ---
-title: "Memperbaiki xiaomi Pocophone F1 di kuwait"
+title: "Pengalaman memperbaiki sendiri xiaomi Pocophone F1 di kuwait "
 date: 2019-04-04T06:30:10+03:00
 draft: false
-tags: ["personal"]
+tags: ["personal", "xiaomi", "pocophone", "aliexpress", "kuwait"]
 ---
 
 Pengalaman memperbaiki smartphone di kuwait dan indonesia ternyata berbeda sekali. di indonesia memperbaiki smartphone lebih mudah. selain karena sparepart yang banyak tersedia online. ketika kita beli dari marketplace luar negeri semacam alixepress pun tidak ada biaya bea cukai, peraturan di indonesia barang bebas bea masuk adalah 500 USD. jadi bagaimana dengan di kuwait ? saya akan jelaskan di bawah :)
-
 
 ![Broken Pocophone](https://res.cloudinary.com/dy7pjvtw2/image/upload/ar_3:2,c_scale,e_blur:2000,h_1.0,o_30,u_rifkifauzi_id:1/v1554537409/rifkifauzi_id/1.jpg)
 
@@ -40,5 +39,10 @@ Jika dibandingkan ketika tinggal di jakarta. untuk memperbaiki LCD rusak semacam
 
 Kesimpulannya adalah gunakan brand smartphone yang mudah diperbaiki :)
 dan ini pula yang menjadi salah satu alasan saya tidak pernah beli iphone, saya akan bahas di post lain.
+
+<video width="100%" controls>
+  <source src="https://res.cloudinary.com/dy7pjvtw2/video/upload/v1554552742/rifkifauzi_id/berhasil.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ### Terima kasih

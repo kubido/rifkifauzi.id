@@ -492,18 +492,22 @@ section.main .container .content .post-item {
   -ms-align-items: center;
   align-items: center;
   display: list-item;
-  list-style: disc inside;
+  list-style: none;
+  margin-bottom: 1em
 }
 section.main .container .content .post-item .meta {
-
   color: #666;
   display: flex;
   align-self: baseline;
   min-width: 100px;
   text-align: right;
-  margin-right: 16px;
-  margin-bottom: 1em
+  margin-right: 16px;  
 }
+section.main .container .content .post-item a{
+  display: flex;
+  align-self: baseline;
+}
+ 
 section.main .container .content .no-bullet {
   color: transparent;
   font-style: oblique;

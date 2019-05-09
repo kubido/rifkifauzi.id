@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rifki Fauzi</title>
-    <link>http://rifkifauzi.id/</link>
-    <description>Recent content on Rifki Fauzi</description>
+    <title>Personal on Rifki Fauzi</title>
+    <link>http://rifkifauzi.id/tags/personal/</link>
+    <description>Recent content in Personal on Rifki Fauzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2019 16:06:52 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2019 14:54:52 +0300</lastBuildDate>
     
-	<atom:link href="http://rifkifauzi.id/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://rifkifauzi.id/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Tinggal di Kuwait - latar belakang I</title>
-      <link>http://rifkifauzi.id/blog/tinggal-di-kuwait-latar-belakang-1/</link>
-      <pubDate>Sat, 04 May 2019 16:06:52 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/blog/tinggal-di-kuwait-latar-belakang-1/</guid>
-      <description>Maret 2018 adalah pertama kali datang ke kuwait, waktu itu saya diundang ke kuwait oleh seorang teman (warga negara kuwait) dan menawarkan pekerjaan apakah tertarik untuk bekerja di kuwait. tentu saja undangan ke kuwait itu saya terima dengan senang hati. selama seminggu di kuwait semuanya berkesan positif. karena waktu itu saya dibawa jalan-jalan ke beberapa tempat yang menarik, mulai dari startup incubator sampai mall super besar yang bernama &amp;ldquo;The Avenues&amp;rdquo;.</description>
-    </item>
     
     <item>
       <title>Kartu Kredit Syariah (video)</title>
@@ -40,57 +31,12 @@ Sparepart &amp;amp; Ongkir karena yang rusak sampe ke lapisan LCD nya, FYI: smar
     </item>
     
     <item>
-      <title>Coding</title>
-      <link>http://rifkifauzi.id/coding/</link>
-      <pubDate>Thu, 14 Feb 2019 23:01:07 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>http://rifkifauzi.id/english/</link>
-      <pubDate>Thu, 14 Feb 2019 23:01:03 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gallery</title>
-      <link>http://rifkifauzi.id/gallery/</link>
-      <pubDate>Thu, 14 Feb 2019 23:00:45 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/gallery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artikel Opini</title>
-      <link>http://rifkifauzi.id/opini/</link>
-      <pubDate>Thu, 14 Feb 2019 22:58:36 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/opini/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Indonesia’s Next Election Is in April 2019. The Islamists Have Already Won. Really ?</title>
       <link>http://rifkifauzi.id/blog/indonesia-election-islamist-already-won-really/</link>
       <pubDate>Thu, 14 Feb 2019 22:02:39 +0300</pubDate>
       
       <guid>http://rifkifauzi.id/blog/indonesia-election-islamist-already-won-really/</guid>
       <description>A friend (actually my boss) told me that he read an article in nytimes about indonesian 2019 election is won by islamist. I feel happy about it, FINALLY ! but oops&amp;hellip; I forgot that the term islamist is commonly used as &amp;lsquo;extrimist, ISIS supporter&amp;rsquo;. and the term conservative muslim also have a negative meaning. the perfect phrase for the term is the one mentioned in the qur&amp;rsquo;an surah Al-baqarah:143 أُمَّةً وَسَطًا.</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>http://rifkifauzi.id/blog/welcome/</link>
-      <pubDate>Mon, 14 Jan 2019 00:23:03 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/blog/welcome/</guid>
-      <description>Bismillah</description>
     </item>
     
   </channel>
