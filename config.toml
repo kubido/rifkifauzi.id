@@ -11,6 +11,7 @@ theme = "cocoa"
   author = "Rifki Fauzi"
   cachebuster = true
   forcehttps  = true
+  latestpostscount = 8
 
 [[menu.main]]
 name                   = "Latest"

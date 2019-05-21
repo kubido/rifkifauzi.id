@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rifkifauzi.id/blog/vlog-madinah/</loc>
+    <lastmod>2019-05-21T06:14:27+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-4-1-fetch-api-axios/</loc>
+    <lastmod>2019-05-19T06:14:50+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-3-react-router/</loc>
+    <lastmod>2019-05-11T04:58:50+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rifkifauzi.id/blog/tinggal-di-kuwait-latar-belakang-1/</loc>
     <lastmod>2019-05-04T16:06:52+03:00</lastmod>
   </url>
@@ -23,18 +38,8 @@
   </url>
   
   <url>
-    <loc>http://rifkifauzi.id/english/</loc>
-    <lastmod>2019-02-14T23:01:03+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://rifkifauzi.id/gallery/</loc>
     <lastmod>2019-02-14T23:00:45+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rifkifauzi.id/opini/</loc>
-    <lastmod>2019-02-14T22:58:36+03:00</lastmod>
   </url>
   
   <url>
@@ -48,6 +53,21 @@
   </url>
   
   <url>
+    <loc>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-2-state-dan-props/</loc>
+    <lastmod>2017-12-22T04:59:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-1-install-dan-component/</loc>
+    <lastmod>2017-12-18T04:59:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/blog/kintan-buffet-halal-atau-tidak/</loc>
+    <lastmod>2017-05-25T05:32:38+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rifkifauzi.id/tags/aliexpress/</loc>
     <lastmod>2019-04-04T06:30:10+03:00</lastmod>
     <priority>0</priority>
@@ -55,12 +75,18 @@
   
   <url>
     <loc>http://rifkifauzi.id/blog/</loc>
-    <lastmod>2019-05-04T16:06:52+03:00</lastmod>
+    <lastmod>2019-05-21T06:14:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://rifkifauzi.id/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/tags/coding/</loc>
+    <lastmod>2019-05-19T06:14:50+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,13 +110,19 @@
   
   <url>
     <loc>http://rifkifauzi.id/tags/kuwait/</loc>
-    <lastmod>2019-04-06T14:54:52+03:00</lastmod>
+    <lastmod>2019-05-04T16:06:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/tags/madinah/</loc>
+    <lastmod>2019-05-21T06:14:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://rifkifauzi.id/tags/personal/</loc>
-    <lastmod>2019-04-06T14:54:52+03:00</lastmod>
+    <lastmod>2019-05-04T16:06:52+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -102,7 +134,7 @@
   
   <url>
     <loc>http://rifkifauzi.id/</loc>
-    <lastmod>2019-05-04T16:06:52+03:00</lastmod>
+    <lastmod>2019-05-21T06:14:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -113,8 +145,32 @@
   </url>
   
   <url>
+    <loc>http://rifkifauzi.id/tags/tutorial/</loc>
+    <lastmod>2019-05-19T06:14:50+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/tags/tutorial-reactjs/</loc>
+    <lastmod>2019-05-19T06:14:50+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/tags/vlog/</loc>
+    <lastmod>2019-05-21T06:14:27+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://rifkifauzi.id/tags/xiaomi/</loc>
     <lastmod>2019-04-04T06:30:10+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rifkifauzi.id/tags/youtube/</loc>
+    <lastmod>2019-05-21T06:14:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   

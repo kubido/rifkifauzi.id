@@ -2,6 +2,7 @@
 title: "Tinggal di Kuwait - latar belakang I"
 date: 2019-05-04T16:06:52+03:00
 draft: false
+tags: ["personal", "kuwait"]
 ---
 
 **Maret 2018** adalah pertama kali datang ke kuwait, waktu itu saya diundang ke kuwait oleh seorang teman (warga negara kuwait) dan menawarkan pekerjaan apakah tertarik untuk bekerja di kuwait. tentu saja undangan ke kuwait itu saya terima dengan senang hati. selama seminggu di kuwait semuanya berkesan positif. karena waktu itu saya dibawa jalan-jalan ke beberapa tempat yang menarik, mulai dari startup incubator sampai mall super besar yang bernama "The Avenues". Saat itu status saya masih bekerja di Hacktiv8, jakarta dan tawaran pekerjaan belom saya terima. karena waktu itu job deskripsi, gaji, dan lainnya belom terperinci. offernya masih secara umum "kerjaan nya soal coding dan gaji nya bagus". 

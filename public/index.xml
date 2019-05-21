@@ -6,10 +6,38 @@
     <description>Recent content on Rifki Fauzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2019 16:06:52 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 06:14:27 +0300</lastBuildDate>
     
 	<atom:link href="http://rifkifauzi.id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vlog Madinah</title>
+      <link>http://rifkifauzi.id/blog/vlog-madinah/</link>
+      <pubDate>Tue, 21 May 2019 06:14:27 +0300</pubDate>
+      
+      <guid>http://rifkifauzi.id/blog/vlog-madinah/</guid>
+      <description>Video menarik dari changel Aram TV milik Ahmad Al Shugairi seorang wartawan dan da&amp;rsquo;i 1  dari saudi yang punya follower 18 juta di twitter dan 11 juta di instagram .
+Segmen dalam video:  Metro atau yang kita kenal disini sebagai MRT di Qatar Sejarah perluasan masjid Nabawi Seputar masjid nabawi 2  Uthman Taha, ternyata mayoritas cetakan qur&amp;rsquo;an yang kita punya itu bukan cetakan komputer / font komputer, tapi tulisan tangan beliau.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial React Js Bahasa Indonesia 4 1 Fetch API with Axios</title>
+      <link>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-4-1-fetch-api-axios/</link>
+      <pubDate>Sun, 19 May 2019 06:14:50 +0300</pubDate>
+      
+      <guid>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-4-1-fetch-api-axios/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>[Youtube] Tutorial React Js Bahasa Indonesia 3 - React Router</title>
+      <link>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-3-react-router/</link>
+      <pubDate>Sat, 11 May 2019 04:58:50 +0300</pubDate>
+      
+      <guid>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-3-react-router/</guid>
+      <description>   </description>
+    </item>
     
     <item>
       <title>Tinggal di Kuwait - latar belakang I</title>
@@ -49,29 +77,11 @@ Sparepart &amp;amp; Ongkir karena yang rusak sampe ke lapisan LCD nya, FYI: smar
     </item>
     
     <item>
-      <title>English</title>
-      <link>http://rifkifauzi.id/english/</link>
-      <pubDate>Thu, 14 Feb 2019 23:01:03 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gallery</title>
       <link>http://rifkifauzi.id/gallery/</link>
       <pubDate>Thu, 14 Feb 2019 23:00:45 +0300</pubDate>
       
       <guid>http://rifkifauzi.id/gallery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artikel Opini</title>
-      <link>http://rifkifauzi.id/opini/</link>
-      <pubDate>Thu, 14 Feb 2019 22:58:36 +0300</pubDate>
-      
-      <guid>http://rifkifauzi.id/opini/</guid>
       <description></description>
     </item>
     
@@ -91,6 +101,33 @@ Sparepart &amp;amp; Ongkir karena yang rusak sampe ke lapisan LCD nya, FYI: smar
       
       <guid>http://rifkifauzi.id/blog/welcome/</guid>
       <description>Bismillah</description>
+    </item>
+    
+    <item>
+      <title>[Youtube] Tutorial React Js Bahasa Indonesia 2 - State Dan Props</title>
+      <link>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-2-state-dan-props/</link>
+      <pubDate>Fri, 22 Dec 2017 04:59:02 +0300</pubDate>
+      
+      <guid>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-2-state-dan-props/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>[Youtube] Tutorial React Js Bahasa Indonesia 1 - Component</title>
+      <link>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-1-install-dan-component/</link>
+      <pubDate>Mon, 18 Dec 2017 04:59:14 +0300</pubDate>
+      
+      <guid>http://rifkifauzi.id/blog/tutorial-react-js-bahasa-indonesia-1-install-dan-component/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Kintan Buffet Halal Atau Tidak</title>
+      <link>http://rifkifauzi.id/blog/kintan-buffet-halal-atau-tidak/</link>
+      <pubDate>Thu, 25 May 2017 05:32:38 +0300</pubDate>
+      
+      <guid>http://rifkifauzi.id/blog/kintan-buffet-halal-atau-tidak/</guid>
+      <description>Tanggal 18 mei 2017 kantor saya ngadain acara makan-makan, tempatnya di kintan buffet Gandaria city, semacam restoran All you can eat yang dimana menu utamanya adalah shabu (irisan daging sapi yg di masak sendiri #cmiiw), walaupun byk menu makanan di buffet nya (ada wedges, ebi etc). saya agak ragu dan muncul pertanyaan &amp;ldquo;Kintan buffet halal atau tidak ?&amp;rdquo;. mencoba mencari tahu lewat google. walhasil kebanyak result nya restoran tersebut halal.</description>
     </item>
     
   </channel>

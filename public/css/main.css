@@ -752,3 +752,10 @@ section.main .content .markdown tbody tr:nth-child(odd) th {
 section.comments{
   order: 2
 }
+
+.footnotes{
+  font-size: 11px;  
+}
+.footnotes li{
+  margin-bottom: 10px
+}
