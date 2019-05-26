@@ -11,7 +11,7 @@ Video menarik dari changel Aram TV milik Ahmad Al Shugairi seorang wartawan dan 
 
 ## Segmen dalam video:  
 
-1. Metro atau yang kita kenal disini sebagai MRT di Qatar
+1. Metro atau yang kita kenal disini sebagai MRT di Saudi (mekah-madinah) *sebelumnya ditulis qatar.. ngetik nya sambil ngelamun :|
 2. Sejarah perluasan masjid Nabawi
 3. Seputar masjid nabawi <sup>[^2] </sup>
 4. Uthman Taha, ternyata mayoritas cetakan qur'an yang kita punya itu bukan cetakan komputer / font komputer, tapi tulisan tangan beliau.
