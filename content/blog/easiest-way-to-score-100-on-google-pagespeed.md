@@ -2,6 +2,7 @@
 title: "Easiest Way to Score 100 on Google Pagespeed"
 date: 2019-05-27T05:12:32+03:00
 draft: false
+tags: ["coding", "seo", "website performance"]
 ---
 
 ![100% score!](https://res.cloudinary.com/dy7pjvtw2/image/upload/bo_3px_solid_rgb:909090/v1558923264/rifkifauzi_id/Screen_Shot_2019-05-27_at_05.13.32.png)
