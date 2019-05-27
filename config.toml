@@ -12,6 +12,8 @@ theme = "cocoa"
   cachebuster = true
   forcehttps  = true
   latestpostscount = 8
+  googleAnalytics = "UA-47260212-4"
+  facebookAppId = "776869216027510"
 
 [[menu.main]]
 name                   = "Latest"
