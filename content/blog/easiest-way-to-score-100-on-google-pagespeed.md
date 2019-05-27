@@ -10,7 +10,7 @@ draft: false
 the trick is easy, but it might be very hard for some of you who already have existed website or blog.  
 
 1. Use [Hugo](https://gohugo.io/) (it's static site generator)
-2. and I used my customized Hugo theme [here](https://github.com/kubido/cocoa-hugo-theme)
+2. and use my customized Hugo theme [here](https://github.com/kubido/cocoa-hugo-theme)
 
 
 ## how could this be possible?
