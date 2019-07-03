@@ -20,4 +20,4 @@ since there's no `font-display` property in their CSS file. so what I do is addi
 
 
 ### disclaimer
-it's 100% on pagespeed website score only, as for mobile since I add a `facebook` and `google-tag-manager` script. it's downgraded to 86.
+the 100 score is for website, as for mobile since I added `facebook` and `google-tag-manager` script. it's downgraded to 86.

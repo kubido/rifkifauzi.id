@@ -1,9 +1,10 @@
 ---
 title: "Indonesia’s Next Election Is in April 2019. The Islamists Have Already Won. Really ?"
 date: 2019-02-14T22:02:39+03:00
-draft: false
+draft: true
 tags: ["personal", "english"]
 ---
+
 
  A friend (actually my boss) told me that he read an article in [nytimes](https://www.nytimes.com/2019/02/14/opinion/indonesia-election-religion-islam-islamists.html) about indonesian 2019 election is won by islamist. I feel happy about it, FINALLY ! but oops... I forgot that the term islamist is commonly used as 'extrimist, ISIS supporter'. and the term *conservative muslim* also have a negative meaning. the perfect phrase for the term is the one mentioned in the qur'an surah Al-baqarah:143 أُمَّةً وَسَطًا.  
 

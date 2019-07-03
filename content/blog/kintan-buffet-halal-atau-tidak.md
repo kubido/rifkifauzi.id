@@ -2,6 +2,7 @@
 title: "Kintan Buffet Halal Atau Tidak"
 date: 2017-05-25T05:32:38+03:00
 draft: false
+tags: ["personal", "restaurant review"]
 ---
 
 ![](https://cdn-images-1.medium.com/max/1600/0*dq3oyJyMMlDfx1zb.)
