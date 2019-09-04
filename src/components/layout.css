@@ -130,6 +130,11 @@ main img{
   width: 100%
 }
 
+main {
+  line-height: 1.6em;
+  font-size: 1.1em;
+}
+
 @media (min-width: 600px) {
  
   main {
@@ -141,13 +146,14 @@ main img{
     padding: 10px 30px;
     border-radius: 15px
   }
+  
   main ul{
     padding: 0
   }
   main .post-item {
     display: flex;
     list-style: none;
-    margin-bottom: 1.6em
+    margin-bottom: 1.2em
   }
   main .post-item a{
     color: #428bca;
@@ -173,5 +179,5 @@ header nav{
 
 footer .content a {
   opacity: 0.6;
-margin-right:15px
+  margin-right:15px
 }

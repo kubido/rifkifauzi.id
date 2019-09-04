@@ -27,7 +27,15 @@ module.exports = {
         footnotes: true,
         pedantic: true,
         gfm: true,
-        plugins: [],
+        plugins: [
+          {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: '100%',
+              height: 400,
+            }
+          }
+        ],
       },
     },
     `gatsby-transformer-sharp`,

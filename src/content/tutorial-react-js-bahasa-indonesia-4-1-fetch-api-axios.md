@@ -5,4 +5,4 @@ draft: false
 tags: ["coding", "tutorial", "tutorial reactjs"]
 ---
 
-{{< youtube 5OOa9Mo7YDM >}}
+`youtube:https://www.youtube.com/embed/5OOa9Mo7YDM`

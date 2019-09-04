@@ -5,7 +5,7 @@ draft: false
 tags: ["vlog", "youtube", "madinah"]
 ---
 
-{{< youtube b5W5US7sZNQ >}}  
+`youtube:https://www.youtube.com/embed/b5W5US7sZNQ`
 Video menarik dari changel Aram TV milik Ahmad Al Shugairi seorang wartawan dan da'i <sup>[^1] </sup> dari saudi yang punya follower 18 juta di [twitter](https://twitter.com/shugairi) dan 11 juta di [instagram ](https://www.instagram.com/ahmadalshugairi/).
 
 
