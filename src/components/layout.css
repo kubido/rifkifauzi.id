@@ -32,7 +32,6 @@ https://github.com/pure-css/pure/blob/master/LICENSE.md
 
 .container .content .profile{
   border-bottom: 1px solid #c2c2c2;
-  margin-bottom: 1rem;
 }
 .container .content .profile .avatar{
   height: 50px;
@@ -125,4 +124,54 @@ header nav ul a {
 }
 header nav ul a:hover {
   color: #111;
+}
+
+main img{
+  width: 100%
+}
+
+@media (min-width: 600px) {
+ 
+  main {
+    font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 5em;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.09)!important;
+    padding: 10px 30px;
+    border-radius: 15px
+  }
+  main ul{
+    padding: 0
+  }
+  main .post-item {
+    display: flex;
+    list-style: none;
+    margin-bottom: 1.6em
+  }
+  main .post-item a{
+    color: #428bca;
+    text-decoration: none
+  }
+  main .post-item .meta {
+    display: inline;
+    min-width: 100px;
+  }
+  main.post {
+    padding-top: 60px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+  }
+}
+header nav{
+  border-bottom: 1px solid #c2c2c2;
+}
+.nav a{
+  padding: 10px 20px; 
+  text-decoration: none
+}
+
+footer .content a {
+  opacity: 0.6;
+margin-right:15px
 }

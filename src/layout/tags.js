@@ -7,7 +7,6 @@ import '../components/layout.css'
 
 export default ({ data }) => {
   const {allMarkdownRemark: edges} = data
-
   return(
     <Layout>
       <ul>
@@ -23,9 +22,18 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query{
-  
-    allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}, filter: {frontmatter: {draft: {eq: false}}}) {
+
+  query ContentByTag($tag: [String!]){
+    allMarkdownRemark(
+      sort: {
+        order: DESC, fields: frontmatter___date
+      },
+      filter: {
+        frontmatter: {
+          draft: {eq: false},
+          tags: {in: $tag }
+        }
+      }) {
       nodes {
         fields {
           slug
