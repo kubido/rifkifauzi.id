@@ -3,7 +3,7 @@ module.exports = {
     title: `Rifki Fauzi site`,
     description: `Family guy, Software engineer, Coding instructor, Lifelong learner`,
     author: `@kubido`,
-    siteMetadata: `https://rifkifauzi.id`
+    siteUrl: `https://rifkifauzi.id`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
