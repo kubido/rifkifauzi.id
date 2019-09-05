@@ -44,7 +44,7 @@ exports.createPages = async function({ actions, graphql }) {
     let slug = edge.node.fields.slug
     slug = slug ? slug : "/"
     const layout = slug ? "post_detail" : "main"
-    
+    console.log('------------>', slug)
     actions.createPage({
       path: slug,
       component: require.resolve(`./src/layout/${layout}.js`),
@@ -64,7 +64,7 @@ exports.createPages = async function({ actions, graphql }) {
   })
 
   tags.forEach( tag => {
-    console.log('------------>', slugify(tag))
+    
     actions.createPage({
       path: `/tags/${slugify(tag)}`,
       component: require.resolve(`./src/layout/tags.js`),
@@ -80,12 +80,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    
+  
     const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: `/blog${value}`,
     })
   }
 }

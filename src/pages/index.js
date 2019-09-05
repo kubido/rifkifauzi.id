@@ -31,7 +31,7 @@ export const query = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMM Do")
+          date(formatString: "MMM YYYY")
           title
           tags
           draft

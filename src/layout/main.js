@@ -1,6 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
 import Header from "../components/header"
+import '../components/layout.css'
 
 export default ({ data, children, title }) => {
   return(

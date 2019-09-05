@@ -5,6 +5,7 @@ import { FacebookProvider, Comments } from 'react-facebook';
 
 export default ({data, location}) => {
   const post = data.markdownRemark
+
   return(
     <Layout>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
