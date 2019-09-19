@@ -9,7 +9,11 @@ export default ({data, location}) => {
   return(
     
     <Layout>
-      <SEO title={post.frontmatter.title}/>
+      <SEO 
+        title={post.frontmatter.title}
+        thumbnail={post.frontmatter.thumbnail}
+        description={post.frontmatter.desc}
+        />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <FacebookProvider appId="776869216027510">
         <Comments href={location.href} />
@@ -25,6 +29,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        thumbnail
         date
       }
       fields {
