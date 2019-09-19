@@ -22,7 +22,7 @@ const Header = (props) => (
             <Link to="/">
               <div className="name">Rifki Fauzi</div>
             </Link>
-            <h3 className="self-intro">Family guy, Software engineer, Coding instructor, Lifelong learner</h3>
+            <h3 className="self-intro">Family guy, Software engineer, Lifelong learner, Lead Instructor at <a href="https://codevity.com" target="_blank">codevity</a></h3>
           </div>
         </div>
         <nav>

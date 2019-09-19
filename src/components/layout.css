@@ -135,7 +135,6 @@ main {
   font-size: 1.1em;
 }
 
-@media (min-width: 600px) {
  
   main {
     font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
@@ -168,7 +167,6 @@ main {
     border-bottom: 1px solid #eee;
     margin-bottom: 20px;
   }
-}
 header nav{
   border-bottom: 1px solid #c2c2c2;
 }
