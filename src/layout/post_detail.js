@@ -15,7 +15,7 @@ export default ({data, location}) => {
       />
       <div className="post-info">
         <div className="tags">
-          {post.frontmatter.tags.map(tag => {
+          {post.frontmatter.tags && post.frontmatter.tags.map(tag => {
             return (
               <Link to={`/tags/${tag}/`}>
                 <span className="label-tag">{tag}</span>

@@ -5,11 +5,11 @@ import SEO from "../components/seo"
 import Layout from "../layout/main"
 import '../components/layout.css'
 
-export default ({ data }) => {
+export default ({ data, slug }) => {
   const {allMarkdownRemark: edges} = data
   return(
     <>
-      <SEO title={edges.nodes.fields.slug}/>
+      <SEO title={slug}/>
       <Layout>
         <ul>
           { edges.nodes.map( (post, index) => (
