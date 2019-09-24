@@ -1,5 +1,6 @@
 
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const createPaginatedPages = require('gatsby-paginate')
 
 const slugify = (string) => {
   const a = 'àáäâãåăæąçćčđďèéěėëêęğǵḧìíïîįłḿǹńňñòóöôœøṕŕřßşśšșťțùúüûǘůűūųẃẍÿýźžż·/_,:;'
@@ -17,16 +18,19 @@ const slugify = (string) => {
 }
 
 exports.createPages = async function({ actions, graphql }) {
-  const {data} = await graphql(`
+  const { data } = await graphql(`
     query{
-      allMarkdownRemark {
+      allMarkdownRemark(
+        sort: {order: DESC, fields: frontmatter___date}
+        filter: {frontmatter: {draft: {eq: false}}}
+      ) {
         edges {
           node {
             fields {
               slug
             }
             frontmatter {
-              date
+              date(formatString: "MMM YYYY")
               title
               draft
               tags
@@ -39,8 +43,18 @@ exports.createPages = async function({ actions, graphql }) {
 
   const tags = []
 
+  const posts = data.allMarkdownRemark.edges
   
-  data.allMarkdownRemark.edges.forEach(edge => {
+  createPaginatedPages({
+    edges: posts,
+    createPage: actions.createPage,
+    pageTemplate: 'src/layout/pagination.js',
+    pageLength: 8, // This is optional and defaults to 10 if not used
+    pathPrefix: 'page', // This is optional and defaults to an empty string if not used
+    context: {}, // This is optional and defaults to an empty object if not used
+  })  
+
+  posts.forEach(edge => {
     let slug = edge.node.fields.slug
     slug = slug ? slug : "/"
     const layout = slug ? "post_detail" : "main"
@@ -49,7 +63,7 @@ exports.createPages = async function({ actions, graphql }) {
       path: slug,
       component: require.resolve(`./src/layout/${layout}.js`),
       context: { 
-        slug
+        slug,
       },
     })
     if(edge.node.frontmatter.tags){
@@ -69,7 +83,7 @@ exports.createPages = async function({ actions, graphql }) {
       path: `/tags/${slugify(tag)}`,
       component: require.resolve(`./src/layout/tags.js`),
       context: { 
-        tag: slugify(tag)
+        tag: slugify(tag),
       },
     })
   })

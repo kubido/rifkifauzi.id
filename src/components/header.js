@@ -14,14 +14,14 @@ const Header = (props) => (
         <div className="profile">
           <div className="avatar">
             <Link to="/">
-              <img className="avatar" src="/images/photo.jpg"/>  
+              <img className="avatar" src="/images/photo.jpg" alt="avatar"/>  
             </Link>
           </div>
           <div className="intro">
             <Link to="/">
               <div className="name">Rifki Fauzi</div>
             </Link>
-            <h3 className="self-intro">Family guy, Software engineer, Lifelong learner, Lead Instructor at <a href="https://codevity.com" target="_blank">codevity</a></h3>
+            <h3 className="self-intro">Family guy, Software engineer, Lifelong learner, Lead Instructor at <a href="https://codevity.com" rel="noopener noreferrer"  target="_blank">codevity</a></h3>
           </div>
         </div>
         <nav>

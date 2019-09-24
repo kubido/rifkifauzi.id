@@ -8,16 +8,19 @@ import '../components/layout.css'
 export default ({ data }) => {
   const {allMarkdownRemark: edges} = data
   return(
-    <Layout>
-      <ul>
-        { edges.nodes.map( (post, index) => (
-          <li className="post-item" key={index}>
-            <span className="meta"> { post.frontmatter.date }</span>
-            <Link to={post.fields.slug}> {post.frontmatter.title} </Link>
-          </li>
-        ))}
-      </ul>
-    </Layout>
+    <>
+      <SEO title={edges.nodes.fields.slug}/>
+      <Layout>
+        <ul>
+          { edges.nodes.map( (post, index) => (
+            <li className="post-item" key={index}>
+              <span className="meta"> { post.frontmatter.date }</span>
+              <Link to={post.fields.slug}> {post.frontmatter.title} </Link>
+            </li>
+          ))}
+        </ul>
+      </Layout>
+    </>
   )
 }
 

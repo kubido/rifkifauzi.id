@@ -16,10 +16,10 @@ export default ({ data, children, title }) => {
           </main>
           <footer>
             <div className="content">
-              <a href="https://github.com/kubido" target="_blank" rel="noopener">
+              <a href="https://github.com/kubido" target="_blank" rel="noopener noreferrer" >
                 <img className="icon" src="/images/github.svg" alt="github" width="24"/>
               </a>
-              <a href="https://instagram.com/kubid" target="_blank" rel="noopener">
+              <a href="https://instagram.com/kubid" target="_blank" rel="noopener noreferrer" >
                 <img className="icon" src="/images/instagram.svg" alt="instagram" width="24"/>
               </a>
             </div>
