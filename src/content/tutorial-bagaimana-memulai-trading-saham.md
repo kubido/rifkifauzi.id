@@ -2,7 +2,7 @@
 title: "Tutorial Bagaimana Memulai Trading Saham"
 date: 2017-08-11T07:38:22+03:00
 draft: false
-tags: ["tutorial", "tutorial trading", "tutorial saham"]
+tags: ["tutorial", "tutorial-trading", "tutorial-saham"]
 ---
 
 

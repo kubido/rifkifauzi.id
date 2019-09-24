@@ -179,3 +179,26 @@ footer .content a {
   opacity: 0.6;
   margin-right:15px
 }
+
+.post-info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row
+}
+.post-info .tags a {
+  text-decoration: none
+}
+
+.post-info  .tags span.label-tag{
+  font-size: 14px;
+  padding: 4px 10px;
+  background: #eee;
+  margin-right: 4px;
+  border-radius: 4px;
+  color: #888;
+}
+
+.post-info  span.date{
+  font-size: 14px;
+  color: #888;
+}
