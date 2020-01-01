@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../layout/main'
 import { FacebookProvider, Comments } from 'react-facebook';
 import SEO from "../components/seo"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 export default ({data, location}) => {
   const post = data.markdownRemark
