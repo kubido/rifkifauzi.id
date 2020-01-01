@@ -22,7 +22,7 @@ exports.createPages = async function({ actions, graphql }) {
     query{
       allMarkdownRemark(
         sort: {order: DESC, fields: frontmatter___date}
-        filter: {frontmatter: {draft: {eq: false}, tags:{ne:"penipu"} }}
+        filter: {frontmatter: {draft: {eq: false}}}
       ) {
         edges {
           node {
@@ -58,7 +58,7 @@ exports.createPages = async function({ actions, graphql }) {
     let slug = edge.node.fields.slug
     slug = slug ? slug : "/"
     const layout = slug ? "post_detail" : "main"
-    console.log('------------>', slug)
+    
     actions.createPage({
       path: slug,
       component: require.resolve(`./src/layout/${layout}.js`),

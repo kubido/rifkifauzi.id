@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import SEO from "../components/seo"
 import Layout from "../layout/main"
@@ -42,7 +42,7 @@ export const query = graphql`
   
     allMarkdownRemark(
       sort: {order: DESC, fields: frontmatter___date}
-      filter: {frontmatter: {draft: {eq: false}}}
+      filter: {frontmatter: {draft: {eq: false}, tags:{ne:"penipu"} }}
       limit: 8
     ) {
       nodes {
