@@ -22,7 +22,7 @@ exports.createPages = async function({ actions, graphql }) {
     query{
       allMarkdownRemark(
         sort: {order: DESC, fields: frontmatter___date}
-        filter: {frontmatter: {draft: {eq: false}}}
+        filter: {frontmatter: {draft: {eq: false}, tags:{ne:"penipu"} }}
       ) {
         edges {
           node {
