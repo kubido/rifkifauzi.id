@@ -1,6 +1,6 @@
 ---
 title: "Muhammad Rizki Abdullah Penipu - (Pengusaha / Advokat Penipu)"
-date: 2019-09-19T09:48:57.928Z
+date: 2019-02-19T09:48:57.928Z
 draft: true
 tags: ["personal", "penipu"]
 desc: "Akhirnya saya tulis juga di blog, setelah tidak ada itikad baik. saya posting juga soal si penipu ini. pesan saya bagi pembaca ada di bagian akhir."
