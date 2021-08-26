@@ -26,7 +26,7 @@ const handler = async (event, context) => {
       statusCode: 200,
       body: JSON.stringify(data),
       headers: {
-        'Access-Control-Allow-Origin': 'ngaji.rifkifauzi.com nonton.rifkifauzi.id',
+        'Access-Control-Allow-Origin': 'https://ngaji.rifkifauzi.id https://nonton.rifkifauzi.id',
         'Access-Control-Allow-Headers': 'Content-Type',
         'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
         'Content-Type': 'application/json'
