@@ -26,10 +26,13 @@ const handler = async (event, context) => {
       statusCode: 200,
       body: JSON.stringify(data),
       headers: {
+        'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Headers': 'Content-Type',
-        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
-        'Content-Type': 'application/json'
+        'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, site',
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Methods': '*',
+        'Access-Control-Max-Age': '2592000',
+        'Access-Control-Allow-Credentials': 'true',
       }
     }
   } catch (error) {
