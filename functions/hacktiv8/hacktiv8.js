@@ -9,13 +9,17 @@ const handler = async (event, context) => {
     let url = "https://academic-portal.hacktiv8.com/shuttle"
     let params = {}
 
+    const { email, password, batchName } = JSON.parse(event.body)
+
     switch (route) {
       case 'login':
-        const { email, password } = JSON.parse(event.body)
         params = routes.login(email, password)
         break;
       case 'batches':
         params = routes.batches()
+        break
+      case 'batchDetail':
+        params = routes.batchDetail(batchName)
         break
       case 'instructors':
         params = routes.instructors
