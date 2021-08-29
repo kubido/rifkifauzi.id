@@ -42,7 +42,7 @@ module.exports = {
   },
   headersCORS: {
     'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, site',
+    'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, site, route',
     'Content-Type': 'application/json',
     'Access-Control-Allow-Methods': '*',
     'Access-Control-Max-Age': '2592000',
