@@ -37,6 +37,12 @@ module.exports = {
       }
     }
   },
+  batchDetail(batchName) {
+    return {
+      "method": "GET",
+      "path": `/student/batch/${batchName}`
+    }
+  },
   headers: {
     cookie: 'token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmYjQ4ZGFhZTIyZmFkZWQ3MWUxMWY1MSIsImlhdCI6MTYyOTc5MDcxNn0.W8gQbjlUKk6K7NNGSS6u9rmLUAXs9x5inaGxJwl2D28"'
   },
