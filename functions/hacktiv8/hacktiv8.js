@@ -7,32 +7,40 @@ const handler = async (event, context) => {
     let { route } = event.headers
     let validRoute = Object.keys(routes).includes(route)
     let url = "https://academic-portal.hacktiv8.com/shuttle"
-    let params = {}
 
-    const { email, password, batchName } = JSON.parse(event.body)
-
-    switch (route) {
-      case 'login':
-        params = routes.login(email, password)
-        break;
-      case 'batches':
-        params = routes.batches()
-        break
-      case 'batchDetail':
-        params = routes.batchDetail(batchName)
-        break
-      case 'instructors':
-        params = routes.instructors
-        break
-      case 'assignments':
-        params = routes.assignments()
-        break
-      default:
-        break;
+    try {
+      const { email, password, batchName, phaseNumber } = JSON.parse(event.body)
+      switch (route) {
+        case 'login':
+          params = routes.login(email, password)
+          break;
+        case 'batches':
+          params = routes.batches()
+          break
+        case 'batchDetail':
+          params = routes.batchDetail(batchName)
+          break
+        case 'batchStudents':
+          params = routes.batchStudents(batchName, phaseNumber)
+          break
+        case 'instructors':
+          params = routes.instructors
+          break
+        case 'assignments':
+          params = routes.assignments()
+          break
+        default:
+          break;
+      }
+    } catch (error) {
+      console.log('------------x', error);
     }
+
+
 
     if (validRoute) {
       let resp = await axios.post(url, params, { headers: routes.headers })
+      console.log(resp.data, params);
       data = resp.data
     } else {
       data = { message: "not found" }
@@ -41,18 +49,13 @@ const handler = async (event, context) => {
     return {
       statusCode: 200,
       body: JSON.stringify(data),
-      headers: {
-        'Content-Type': 'application/json',
-        ...routes.headersCORS
-      }
+      headers: routes.headersCORS
     }
   } catch (error) {
     return {
       statusCode: 500,
       body: JSON.stringify({ message: error.toString() }),
-      headers: {
-        'Content-Type': 'application/json'
-      }
+      headers: routes.headersCORS
     }
   }
 }
