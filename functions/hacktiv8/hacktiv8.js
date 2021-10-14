@@ -27,7 +27,7 @@ const handler = async (event, context) => {
           params = routes.instructors
           break
         case 'assignments':
-          params = routes.assignments()
+          params = routes.assignments(phaseNumber)
           break
         default:
           break;
